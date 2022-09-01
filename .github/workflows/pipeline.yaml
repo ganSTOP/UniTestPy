@@ -10,5 +10,5 @@ jobs:
       - name: Run dir
         run: ls
       - name: Run unit tests
-        run: python -m unittest ./tests/sumtest.py 
+        run: python -m unittest tests/sumtest.py
       
