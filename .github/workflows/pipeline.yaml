@@ -7,7 +7,8 @@ jobs:
         python-version: [3.8.8]
     runs-on: ubuntu-latest
     steps:
-      - name: Run unit tests
-        run: python -m unittest ./../tests/sumtest.py 
       - name: Run dir
         run: ls
+      - name: Run unit tests
+        run: python -m unittest ./tests/sumtest.py 
+      
